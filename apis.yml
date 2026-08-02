@@ -1,8 +1,17 @@
 aid: textio
 name: Textio
-description: Textio is a company surfaced as a portfolio company of bloomberg-beta, cowboy-ventures, emergence-capital
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Textio is an augmented-writing platform that uses AI to help managers and HR
+  teams write clearer, more actionable, and less biased performance feedback,
+  recruiting outreach, and job posts. Used by 100,000+ managers at companies
+  including T-Mobile, NASDAQ, Strava, and Upwork, Textio analyzes tone and
+  language as people write and flags biased, low-impact, or unclear phrasing in
+  real time. It is delivered as a web application with browser and editor
+  integrations. Probing textio.com found no public developer API, OpenAPI
+  specification, SDKs, developer portal, or .well-known discovery documents (the
+  site is a HubSpot-hosted single-page app that serves a soft-404 shell for all
+  such paths); api.textio.com exposes only an application health check. Textio
+  does operate a public system status page.
 url: https://raw.githubusercontent.com/api-evangelist/textio/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,11 +21,30 @@ x-backed-by:
 - emergence-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://textio.com/_/cache/images/brandassets/textio-logo-scribble-1200x630.png
 tags:
 - Company
+- Augmented Writing
+- HR Tech
+- Recruiting
+- Inclusive Language
+- Feedback
+- AI Writing
+- Talent
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +54,12 @@ maintainers:
 common:
 - type: Website
   url: https://textio.com/
+- type: StatusPage
+  url: https://status.textio.com/
+- type: Lifecycle
+  url: lifecycle/textio-lifecycle.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1

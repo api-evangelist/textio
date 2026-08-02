@@ -1,0 +1,14 @@
+generated: '2026-07-21'
+method: searched
+source: https://status.textio.com/
+# Textio publishes no public developer API, versioning policy, or deprecation
+# policy. The only operational-transparency surface found via probing is a
+# public system status page. api.textio.com responds only with an app health
+# check ({"status":"OK"}) and 404s all other paths; there is no OpenAPI to
+# derive deprecated operations from.
+versioning: null
+deprecation: null
+sla: null
+status_page: https://status.textio.com/
+status_page_title: Textio System Status
+deprecated_operations: []
